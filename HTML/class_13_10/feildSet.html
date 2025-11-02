@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- feildset -->
+
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="">
+        <table border="1">
+            <tr>
+                <td>User:</td>
+                <td>
+                    <input type="text" placeholder="Enter your name" id="user">
+                </td>
+            </tr>
+            <tr>
+                <td>password:</td>
+                <td>
+                    <input type="text" placeholder="Enter password" id="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Phone">Phone:</label></td>
+                <td><input type="tel" id="Phone" placeholder="Phone number"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="gender">Male
+                    <input type="radio" name="gender" id="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="E-mail">E-mail</label></td>
+                <td><input type="email" placeholder="Enter mail">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">City</label></td>
+               <td>
+                <input list="city">
+                <datalist id="city">
+                    <option value="Mumbai"></option>
+                    <option value="Hyd"></option>
+                    <option value="Pune"></option>
+                    <option value="Banglore"></option>
+                </datalist>
+                </tr>
+               </td>
+            <th>
+                <td colspan="2"><input type="submit"></td>
+            </th>
+        </table>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Educational Details</legend>
+        <form action="">
+            <table border="1">
+                <tr>
+                    <td><label for="">College Name</label></td>
+                    <td><input type="text" name="" id="" placeholder="Enter College Name?"></td>
+                </tr>
+                <tr>
+                   <td><label for="clg">Graduation?</label></td>
+                   <td>
+                    <input type="radio">Yes
+                    <input type="radio">No
+                   </td>
+                </tr>
+                <tr>
+                    <td><label for="branch">Branch :</label></td>
+                    <td>
+                        <select name="" id="branch" >
+                        <option value="select_branch">Select branch</option>
+                        <option value="CSE">CSE</option>
+                        <option value="IT">IT</option>
+                        <option value="MECH">MECH</option>
+                        <option value="AIML">AIML</option>
+                        <option value="NON">NON_TECH</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="yop">YOP:</label></td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="yop">Percentage</label></td>
+                    <td><input type="number" name="" id="" placeholder="Enter the label"></td>
+                </tr>
+                <tr>
+
+                </tr>
+                <tr>
+                    <td><input type="reset" name="" id=""></td>
+                    <td><input type="submit" name="" id=""></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

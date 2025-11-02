@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <fieldset>
+        <legend>Personal details</legend>
+
+        <label for="name">Full Name*</label><br>
+        <input type="text" placeholder="Enter your full name"><br><br>
+
+        <label for="name">Email*</label><br>
+        <input type="email" placeholder="example@mail.com"><br><br>
+
+        <label for="number">Mobile Number*</label><br>
+        <input type="number" placeholder="10-digit number"><br><br>
+
+        <label for="">Gender:</label><br>
+        <input type="radio">Male
+        <input type="radio">Female
+        <input type="radio">Others <br><br>
+
+        <label for="">Date of Birth</label><br>
+        <input type="date"><br><br>
+
+        <label for="">Upload Profile Photo:</label><br>
+        <input type="file">
+
+    </fieldset><br>
+
+    <fieldset>
+     <legend>Job Details</legend>
+
+    <label for="YOS">Postion Applied For:</label><br>
+    <select name="" id="Postion">
+        <option value="select_pos">--Select Postion--</option>
+        <option value="1st">Java Developer</option>
+        <option value="2nd">.net Developer</option>
+        <option value="3rd">React Developer</option>
+        <option value="4th">Python Developer</option>
+        <option value="NON">NON</option>
+    </select><br><br>
+
+    <label for="sal">Expected Salary($):</label><br>
+    <input type="number"><br><br>
+
+    <label for="location">Preferred Location(Select multiple with Ctrl/Cmd):</label><br>
+    <select id="city" multiple>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Hyd">Hyderabad</option>
+        <option value="Pune">Pune</option>
+        <option value="Banglore">Banglore</option>
+    </select><br><br>
+
+    <label for="">Available to Join:</label><br>
+    <input type="date">
+
+    <br><br>
+    </fieldset><br>
+
+   <fieldset>
+
+    <legend>Skills & Experience</legend>
+
+    <label for="skills">Skills:</label><br>
+    <input type="checkbox" name="" id="skills">HTML
+    <input type="checkbox" name="" id="skills">CSS
+    <input type="checkbox" name="" id="skills">JavaScript
+    <input type="checkbox" name="" id="skills">Python
+    <input type="checkbox" name="" id="skills">React
+    <input type="checkbox" name="" id="skills">Node.js
+     <br><br>
+
+    <label for="Experience">Experience (in Years):</label><br>
+    <input type="number"><br><br>
+
+    <label for="resume">Upload Resume(PDF or DOC):*</label><br>
+    <input type="file" name="" id="">
+
+   </fieldset>
+
+   <fieldset>
+    <legend>Additional information</legend>
+
+    <label for="bio">
+            About Yourself:
+    </label><br>
+    <textarea name="bio" id="" placeholder="Write a Short bio..."></textarea>
+    <br><br>
+    <input type="checkbox"> I confirm that the above details are true.
+
+   </fieldset><br>
+   
+   <button>Submit Application</button>
+   <button>Clear Form</button>
+</body>
+</html>

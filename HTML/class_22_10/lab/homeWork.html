@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Mahto | Personal Card</title>
+    <style>
+        /* Nature background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #CDE8B4, #A5D6A7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center card */
+.container {
+  text-align: center;
+}
+
+.card {
+  background: #ffffffcc; /* slightly transparent white */
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 340px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image */
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #4CAF50;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+/* Name and role */
+h1 {
+  margin: 0;
+  color: #2e7d32;
+  font-size: 1.6em;
+}
+
+h2 {
+  margin: 0.3rem 0 1rem 0;
+  font-weight: 400;
+  color: #388e3c;
+  font-size: 1.1em;
+}
+
+/* Bio */
+.bio {
+  color: #555;
+  font-size: 0.95em;
+  margin-bottom: 1.5rem;
+}
+
+/* Hobbies */
+.hobbies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.hobbies span {
+  background: #E8F5E9;
+  color: #2e7d32;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.hobbies span:hover {
+  background: #C8E6C9;
+}
+
+/* Social links */
+.social-links a {
+  text-decoration: none;
+  color: #1b5e20;
+  margin: 0 10px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #388e3c;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="../lab/RAJ.jpg" alt="Profile Photo" class="profile-img">
+
+            <h1>Raj Mahto</h1>
+            <h2>Aspiring Web Developer</h2>
+
+            <p class="bio">
+                A creative learner passionate about building clean, functional, and visually pleasing web projects.
+            </p>
+
+            <div class="hobbies">
+                <span>🎨 Design</span>
+                <span>💻 Coding</span>
+                <span>🎧 Music</span>
+                <span>🌱 Nature</span>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/rajmahto" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/raj-kumar-mahto-784278230/" target="_blank">LinkedIn</a>
+                <a href="mailto:mahtoraj273@gmail.com">Mail</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

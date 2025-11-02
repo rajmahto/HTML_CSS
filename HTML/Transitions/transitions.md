@@ -1,0 +1,18 @@
+# Transitions
+It is used to observed changes happens to elements and animate those changes over a specified duration. It allows for smooth transitions between different states of element, the user experience .
+
+# Syntax:
+transition: [property] [duration] [timing-funtion] [delay];
+Diffrent timing funtions:
+1. ease: Maintains a Emerging Speed.
+2. linear: Maintains a constant speed from start to finish.
+3. ease-in: Starts slow and speeds up.
+4. ease-out: Starts fast and slows down.
+5. ease-in-out: Starts slow, speeds up, and then slows down again.
+
+# Transform: 
+Transform is used to move/rotate/scale/skew the elements
+  Transform: rotate(xdeg)/translate(xpx)/scale(x)/skew(xdeg) rotate is for rotating the element. translate is used to move element. scale is used to zoom-in/zoom-out the element. skew is used with x and y axis. can also implement z axis in 3D.
+
+
+  we can even use filter 

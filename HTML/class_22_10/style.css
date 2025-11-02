@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+body{
+    /* background-color: hsl(78, 57%, 49%);
+    background-image: url(https://images.unsplash.com/photo-1530092285049-1c42085fd395?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwZmxvd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter:blur(3px); */
+    background-image: conic-gradient(from 120deg, red , blue ,green);
+    height: 100vh;
+}
+h2{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: 3px dashed blue underline;
+    text-shadow: 2px 2px 20;
+}
+p{
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 18px;
+    text-wrap:word-wrap;
+    text-indent: 60px;
+    font-family: "Bitcount Grid Single", system-ui;
+
+    font-weight: bolder;
+    font-style: normal;
+    font-size: large;
+}

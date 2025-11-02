@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body>
+    <h1>Student Regestration Form</h1>
+        <fieldset>
+            <legend>Personal information</legend>
+
+            <label for="name">Full Name*</label><br>
+            <input type="text" placeholder="Enter your full name"><br><br>
+
+            <label for="name">Email*</label><br>
+            <input type="email" placeholder="example@mail.com"><br><br>
+
+            <label for="number">Mobile Number*</label><br>
+            <input type="number" placeholder="10-digit number"><br><br>
+
+            <label for="">Date of Birth</label><br>
+            <input type="date"><br><br>
+
+            <label for="">Gender:</label><br>
+            <input type="radio">Male 
+            <input type="radio">Female
+            <input type="radio">Others
+
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Academic Details</legend>
+
+            <label for="Courses">Course</label><br>
+                <select name="" id="Courses">
+                    <option value="select_courses">--Select Course--</option>
+                    <option value="Java">Java Fullstack</option>
+                    <option value=".net">.Net</option>
+                    <option value="ui">UIUX</option>
+                    <option value="AIML">AIML</option>
+                    <option value="NON">NON_TECH</option>
+                </select><br><br>
+
+                <label for="YOS">Year of Study</label><br>
+                <select name="" id="YOS">
+                    <option value="select_Year">--Select Year--</option>
+                    <option value="1st">1st Year</option>
+                    <option value="2nd">2nd Year</option>
+                    <option value="3rd">3rd Year</option>
+                    <option value="4th">4th Year</option>
+                    <option value="NON">NON</option>
+                </select><br><br>
+
+              <label for="skills">Skills:</label><br>
+              <input type="checkbox" name="" id="skills">HTML   
+              <input type="checkbox" name="" id="skills">CSS
+              <input type="checkbox" name="" id="skills">JavaScript
+              <input type="checkbox" name="" id="skills">Python
+
+        </fieldset><br>
+
+  <fieldset>
+    <legend>Address</legend>
+
+    <label for="address">Permanent Address</label><br>
+    <textarea name="address" id="" placeholder="Enter your full address" ></textarea><br><br>
+
+    <label for="address">City</label><br>
+    <input type="text"><br><br>
+
+    <label for="pin">Pincode</label><br>
+    <input type="number" placeholder="6-digit code">
+
+  </fieldset><br>
+  
+  <button>Register</button> 
+  <button>Clear</button>
+</body>
+</html>
